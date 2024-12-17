@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>MAU ORDER APA MASZEH</h1>
+    <form action="/order" method="get">
+        <label for=""> JENIS BAJU</label>
+        <div>
+            <input type="radio" name="BAJU" value="Kemeja"><label for="">Kemeja</label>
+            <input type="radio" name="BAJU" value="Kaos" checked><label for="">Kaos</label><br>
+        </div>
+        <div>
+            <select name="ukuran" id="baju">
+                <option value="-">-</option>
+                <option value="s" selected>small</option>
+                <option value="m">medium</option>
+                <option value="L">large</option>
+            </select>
+        </div>
+        <div>
+            <label for="check">SESUAI PESANAN</label>
+            <input type="checkbox" name="checklist" id="check" checked>
+        </div>
+        <div>
+            <p>
+                <label for="notes">CATATAN</label>
+            </p>
+            <textarea name="notes" id="notes" cols="40" rows=7"></textarea>
+        </div>
+        <input type="submit" value="PESAN">
+    </form>
+    <hr>
+    <form action="validation">
+        <input type="text">
+        <button type="submit" value="KIRIM"></button>
+    </form>
+</body>
+
+</html>
