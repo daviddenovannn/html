@@ -9,43 +9,115 @@
 
 <body>
     <h1>FORM ISIAN NICH CEES</h1>
-    <form action=""></form>
-    <label for="">ini tombol</label>
-    <input type="button" placeholder="tombol">
+    <form action="#" method="get">
 
+        <p>
+            <label for="button">ini tombol</label>
+            <input type="button" placeholder="tombol" id="button">
+        </p>
 
-    <label for=""> ini checkbox</label>
-    <input type="checkbox" placeholder="checkbox">
+        <div>
 
-    <label for="warna">ini pemilihan color</label>
-    <input type="color" id="warna">
-    <input type="date" placeholder="tanggal">
-    <hr>
-    <input type="datetime-local">
-    <hr>
-    <label for="email"></label>
-    <input type="email" placeholder="email" id="email">
-    <hr>
-    <input type="file">
-    <input type="hidden">
-    <input type="image" placeholder="gambar">
-    <input type="month">svncs
-    <input type="number" placeholder="angka">
-    <input type="password" placeholder="password">
-    <input type="radio">
+            <p>
 
-    <label for="">range ini untuk volume</label>
-    <input type="range">
-    <input type="reset">
-    <input type="search">
+                <label for="ceklisan"> ini checkbox</label>
+                <input type="checkbox" placeholder="checkbox" id="ceklisan">
+            </p>
 
-    <label for="">tempat untuk submit nih ges</label>
-    <input type="submit">
-    <input type="tel">
-    <input type="text">
-    <input type="time">
-    <input type="url">
-    <input type="week">
+        </div>
+
+        <p>
+
+            <label for="warna">ini pemilihan color</label>
+            <input type="color" id="warna">
+        </p>
+        <input type="date" placeholder="tanggal">
+        <hr>
+        <input type="datetime-local">
+        <hr>
+        <label for="email"></label>
+        <input type="email" placeholder="email" id="email">
+        <hr>
+        <input type="file">
+        <input type="hidden">
+        <input type="image" placeholder="gambar">
+        <input type="month">svncs
+        <input type="number" placeholder="angka">
+        <input type="password" placeholder="password">
+        <input type="radio">
+
+        <label for="">range ini untuk volume</label>
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+
+        <p>
+            <label for="">tempat untuk submit nih ges</label>
+            <input type="submit">
+        </p>
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        <hr>
+    </form>
+
+    <form action="/daftar" method="POST">
+        <table>
+
+            <th>
+                <tr>
+                    <td>
+                        <label for="">masukkan nama anda </label>
+                    </td>
+                    <td>
+                        <label for="name"> : </label>
+                        <input type="text" placeholder="nama" id="name" name="nama">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">masukkan nomor anda</label>
+                    </td>
+                    <td>
+                        <label for="number">:</label>
+                        <input type="number" placeholder="nomor" id="number" name="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">masukkan email anda</label>
+                    </td>
+                    <td>
+                        <label for="mail">:</label>
+                        <input type="email" placeholder="email" id="mail" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">masukkan password anda</label>
+                    </td>
+                    <td>
+                        <label for="pw">:</label>
+                        <input type="password" placeholder="password" id="pw" name="password">
+                    </td>
+                </tr>
+            </th>
+        </table>
+        <!-- <p>ini yang masuk ke action</p>
+        <button>button test</button>
+        
+        <p>ini yang masuk ke action juga dengan type submit</p>
+        <button type="submit">kirim</button>
+        
+        <p>ini yang ga masuk ke action</p>
+        <input type="button" value="kirim aj"> -->
+
+        <!-- <p>ini button versi input tapi dengan tpye submit(pasti mengarah ke action)</p> -->
+        <input type="submit" value="kirim">
+        <hr>
+    </form>
 </body>
 
 </html>
